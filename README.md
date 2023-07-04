@@ -8,6 +8,13 @@
 $ yarn install
 ```
 
+## Configuration
+
+create .env
+```
+  DATABASE_URL="postgresql://postgres@localhost:5432/example?schema=public"
+```
+
 ## Prisma
 
 ```bash
